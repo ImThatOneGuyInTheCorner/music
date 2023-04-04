@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #bce6dd;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    /* This will hold the alubum covers */
+    width: 600px;
+    height: 450px;
+    background-color: #e6f5f0;
+    z-index: -1;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    top: 50px;
+    position: absolute;
+    color: #0d5451;
+    rotate: -5deg;
+    transition: transform .5s ease;
+}
+
+.btn {
+    border-radius: 10px;
+    height: 45px;
+    width: 100px;
+    color: #678ca6;
+    border: none;
+    font-size: 15px;
+    top: 28px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: -65px;
+    display: flex;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    top: 125px;
+    font-size: 30px;
+}
+#Daft-Punk {
+    z-index: 1;
+    color: white;
+}
+
+.btn {
+    background-color: #8bc0c7;
+    border: 0;
+    margin: 5px;
+    padding: 8px 30px;
+}
+
+#next {
+    right: 160px;
+}
+#prev {
+    left: 160px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:disabled {
+    background-color: #b6dbd6;
+    color: #99c8c9;
+    cursor: not-allowed;
+}
