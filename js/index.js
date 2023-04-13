@@ -46,18 +46,18 @@ function update() {
     }
 
     if (currentActive == 1) {
-        document.getElementById('Daft-Punk').style.zIndex = '1';
-        document.getElementById('Gorillaz').style.zIndex = '0';
-        document.getElementById('Passion-Pit').style.zIndex = '0';
+        document.getElementById('Daft-Punk').style..display = 'true';
+        document.getElementById('Gorillaz').style.display = 'false';
+        document.getElementById('Passion-Pit').style.display = 'false';
     }
     else if (currentActive == 2) {
-        document.getElementById('Daft-Punk').style.zIndex = '0';
-        document.getElementById('Gorillaz').style.zIndex = '1';
-        document.getElementById('Passion-Pit').style.zIndex = '0';
+        document.getElementById('Daft-Punk').style.display = 'false';
+        document.getElementById('Gorillaz').style.display = 'true';
+        document.getElementById('Passion-Pit').style.display = 'false';
     }
     else {
-        document.getElementById('Daft-Punk').style.zIndex = '0';
-        document.getElementById('Gorillaz').style.zIndex = '0';
-        document.getElementById('Passion-Pit').style.zIndex = '1';
+        document.getElementById('Daft-Punk').style.display = 'false';
+        document.getElementById('Gorillaz').style.display = 'false';
+        document.getElementById('Passion-Pit').style.display = 'true';
     }
 }
