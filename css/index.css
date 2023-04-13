@@ -36,11 +36,10 @@ body {
 }
 
 .circles {
-    background-color: black;
+    background: 
     height: 12px;
     width: 12px;
     margin: 10px;
-    border: none;
     border-radius: 50%;
     display: flex;
     bottom: 180px;
