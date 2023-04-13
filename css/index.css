@@ -48,6 +48,21 @@ body {
 .active {
     background: #4ac79b;
 }
+#circle1 {
+    height: 12px;
+    width: 12px;
+    display: flex;
+    right: 20px;
+    position: relative;
+    border-radius: 50%;
+}
+#circle3 {
+    height: 12px;
+    width: 12px;
+    left: 20px;
+    position: relative;
+    border-radius: 50%;
+}
 
 .btn {
     border-radius: 10px;
