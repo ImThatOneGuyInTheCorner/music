@@ -62,7 +62,7 @@ body {
     align-items: end;
     top: 125px;
     font-size: 30px;
-    color: #bfe695;
+    color: #65ba87;
 }
 #Daft-Punk {
     z-index: 1;
@@ -84,10 +84,10 @@ body {
 }
 
 #next {
-    right: 400px;
+    right: 20vw;
 }
 #prev {
-    left: 400px;
+    left: 20vw;
 }
 
 .btn:active {
