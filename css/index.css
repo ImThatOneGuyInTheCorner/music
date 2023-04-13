@@ -64,6 +64,14 @@ body {
     font-size: 30px;
     color: #bfe695;
 }
+#Daft-Punk {
+    z-index: 1;
+}
+
+.subtitle
+{
+    top: -30px;
+}
 
 .btn {
     background-color: #8bc0c7;

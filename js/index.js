@@ -48,12 +48,12 @@ function update() {
     if (currentActive == 1) {
         document.getElementById('Daft-Punk').style.zIndex = '1';
         document.getElementById('Gorillaz').style.zIndex = '0';
-        document.getElementById('Snails-House').style.zIndex = '0';
+        document.getElementById('Passion-Pit').style.zIndex = '0';
     }
     else if (currentActive == 2) {
         document.getElementById('Daft-Punk').style.zIndex = '0';
         document.getElementById('Gorillaz').style.zIndex = '1';
-        document.getElementById('Snails-House').style.zIndex = '0';
+        document.getElementById('Passion-Pit').style.zIndex = '0';
     }
     else {
         document.getElementById('Daft-Punk').style.zIndex = '0';
