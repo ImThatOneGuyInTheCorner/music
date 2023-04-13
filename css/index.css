@@ -57,7 +57,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: end;
     top: 125px;
@@ -65,7 +65,7 @@ body {
     color: #65ba87;
 }
 #Daft-Punk {
-    z-index: 1;
+    display: flex;
 }
 
 .subtitle
