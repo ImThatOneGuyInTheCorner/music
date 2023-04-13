@@ -4,19 +4,12 @@ const header = document.querySelector('.header')
 
 let currentActive = 1
 
-rotationR()
-function rotationR() {
-    header.style.transform = "rotate(10deg)"
-    wait(500)
-    // setTimeout(rotationL, 500)
-    rotationL()
-}
-function rotationL() {
-    header.style.transform = "rotate(-10deg)"
-    wait(500)
-    // setTimeout(rotationR, 500)
-    rotationR()
-}
+// rotation()
+// function rotation() {
+//     header.style.transform = "rotate(10deg)"
+//     header.style.transform = "rotate(-10deg)"
+//     rotation()
+// }
 
 
 next.addEventListener('click', () => {
