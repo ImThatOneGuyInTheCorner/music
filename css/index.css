@@ -70,6 +70,7 @@ body {
 
 .subtitle
 {
+    display: flex;
     top: -30px;
 }
 
