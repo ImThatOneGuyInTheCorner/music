@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
 body {
     display: flex;
@@ -73,6 +73,7 @@ body {
     display: flex;
     position: relative;
     top: -300px;
+    font-family: 'Merriweather', serif;
 }
 
 .btn {
