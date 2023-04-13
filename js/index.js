@@ -58,6 +58,6 @@ function update() {
     else {
         document.getElementById('Daft-Punk').style.zIndex = '0';
         document.getElementById('Gorillaz').style.zIndex = '0';
-        document.getElementById('Snails-House').style.zIndex = '1';
+        document.getElementById('Passion-Pit').style.zIndex = '1';
     }
 }
