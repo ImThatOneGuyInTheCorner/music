@@ -84,10 +84,10 @@ body {
 }
 
 #next {
-    right: 20vw;
+    right: 35vw;
 }
 #prev {
-    left: 20vw;
+    left: 35vw;
 }
 
 .btn:active {
