@@ -1,15 +1,9 @@
 const prev = document.getElementById("prev")
 const next = document.getElementById("next")
 const header = document.querySelector('.header')
+const circles = document.querySelectorAll('.circle')
 
 let currentActive = 1
-
-// rotation()
-// function rotation() {
-//     header.style.transform = "rotate(10deg)"
-//     header.style.transform = "rotate(-10deg)"
-//     rotation()
-// }
 
 
 next.addEventListener('click', () => {
@@ -60,4 +54,14 @@ function update() {
         document.getElementById('Gorillaz').style.display = 'none';
         document.getElementById('Passion-Pit').style.display = 'flex';
     }
+
+    circles.forEach((circle, index) => {
+        if ((index + 1) == currentActive) {
+            circle.classList.add('active')
+        }
+        else {
+            circle.classList.remove('active')
+        }
+
+    })
 }

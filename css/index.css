@@ -31,36 +31,18 @@ body {
     top: 50px;
     position: absolute;
     color: #0d5451;
-    /* rotate: -5deg; */
-    transition: transform .5s ease;
 }
 
-.circles {
+.circle {
     background: #b6bfbc;
     height: 12px;
     width: 12px;
-    margin: 0px;
+    margin: 0px 2px;
     border-radius: 50%;
     display: flex;
     bottom: 180px;
     position: relative;
-}
-#circle1 {
-    height: 12px;
-    width: 12px;
-    display: flex;
-    right: 20px;
-    position: relative;
-    border-radius: 50%;
-}
-#circle3 {
-    height: 12px;
-    width: 12px;
-    display: flex;
-    left: 20px;
-    position: relative;
-    border-radius: 50%;
-    background: #b6bfbc;
+    display: inline-block;
 }
 .active {
     background: #4ac79b;
