@@ -80,6 +80,7 @@ body {
 }
 #Daft-Punk {
     display: flex;
+    z-index: 3;
 }
 
 .subtitle
