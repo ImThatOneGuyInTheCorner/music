@@ -80,7 +80,6 @@ body {
 }
 #Daft-Punk {
     display: flex;
-    z-index: 3;
 }
 
 .subtitle
@@ -114,4 +113,9 @@ body {
     background-color: #b6dbd6;
     color: #99c8c9;
     cursor: not-allowed;
+}
+
+.a {
+    position: absolute;
+    z-index: 6;
 }
