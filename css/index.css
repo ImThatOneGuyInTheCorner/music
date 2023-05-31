@@ -3,13 +3,18 @@
 
 body {
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     align-items: center;
     justify-content: center;
     margin: 0;
     background-color: #bce6dd;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+    z-index: -50;
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .container {
@@ -66,20 +71,22 @@ body {
 .image {
     height: 300px;
     width: 300px;
+    cursor: pointer;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: end;
     top: 125px;
-    left: 150px;
+    left: 1500000px;
     font-size: 30px;
     color: #65ba87;
+    z-index: 1000;
 }
 #Daft-Punk {
-    display: flex;
+    left: 150px;
 }
 
 .subtitle
@@ -107,15 +114,11 @@ body {
 
 .btn:active {
     transform: scale(0.98);
+    cursor: pointer;
 }
 
 .btn:disabled {
     background-color: #b6dbd6;
     color: #99c8c9;
     cursor: not-allowed;
-}
-
-.a {
-    position: absolute;
-    z-index: 6;
 }

@@ -1,0 +1,38 @@
+
+body {
+    font-family: 'Sono', sans-serif;
+    background-color: #3f3552;
+    color: #c9c300;
+    margin: 0;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.image {
+    left: 50%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#headerImage {
+    top: 50px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    background-color: #f2e9ef;
+    width: 80vw;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+}
